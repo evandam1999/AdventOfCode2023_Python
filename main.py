@@ -1,19 +1,36 @@
 #! /usr/bin/env python3
 
+# +======================================================================+
+# |    _       _                 _            __    ____          _      |
+# |   / \   __| |_   _____ _ __ | |_    ___  / _|  / ___|___   __| | ___ |
+# |  / _ \ / _` \ \ / / _ \ '_ \| __|  / _ \| |_  | |   / _ \ / _` |/ _ \|
+# | / ___ \ (_| |\ V /  __/ | | | |_  | (_) |  _| | |__| (_) | (_| |  __/|
+# |/_/__ \_\__,_|_\_/_\___|_| |_|\__|  \___/|_|    \____\___/ \__,_|\___||
+# ||___ \ / _ \___ \|___ /                                               |
+# |  __) | | | |__) | |_ \                                               |
+# | / __/| |_| / __/ ___) |                                              |
+# ||_____|\___/_____|____/                                               |
+# +======================================================================+
+
 import day1, day2
 
 def main():
-    day1a = day1.part1.answer()
-    print(f'day1 part1 = {day1a}')
-    assert(day1a == 54239)
+    day1_p1 = day1.part1.answer()
+    print(f'day1 part1 = {day1_p1}')
+    assert(day1_p1 == 54239)
 
-    day1b = day1.part2.answer()
-    print(f'day1 part2 = {day1b}')
-    assert(day1b == 55343)
+    day1_p2 = day1.part2.answer()
+    print(f'day1 part2 = {day1_p2}')
+    assert(day1_p2 == 55343)
 
-    day2b = day2.part1.answer()
-    print(f'day2 part1 = {day2b}')
-    assert(day2b == 1853)
+    day2_p1 = day2.part1.answer()
+    print(f'day2 part1 = {day2_p1}')
+    assert(day2_p1 == 1853)
+
+    day2_p2 = day2.part2.answer()
+    print(f'day2 part2 = {day2_p2}')
+    assert(day2_p2 == 72706)
+
 
 
 if __name__ == "__main__":
